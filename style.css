@@ -389,8 +389,8 @@ main{
     gap: 10px;
     width: 7cm;
 }
-.main-hero .right .a{
-    color: var(--main-color);
+.main-hero .right a{
+    color: var(--main-color2);
     margin-right: 10px;
 }
 .main-hero .right a:hover{
