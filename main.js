@@ -86,3 +86,17 @@ footerLinks.forEach(link=>{
         e.target.parentElement.parentElement.classList.toggle('open-link')
     })
 })
+
+// WHEN SCROLL
+let up=document.getElementById('up')
+up.onclick=()=>{
+    scrollTo(0,0)
+}
+window.onscroll=()=>{
+    if(scrollY>=400){
+        up.classList.add('up-show')
+    }
+    else{
+        up.classList.remove('up-show')
+    }
+}
