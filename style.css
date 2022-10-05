@@ -24,6 +24,29 @@ button{
 .p,.h3{
     color: var(--main-color2);
 }
+/* =============== START BUTTON GO TO TOP =============== */
+.up,.up-show{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    cursor: pointer;
+    width: 1cm;
+    height: 1cm;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    right: .4cm;
+    bottom: .8cm;
+    z-index: 1000;
+    transition: all 1s ease-in-out;
+    transform: translateX(2cm);
+}
+.up-show{
+    transform: translateX(0);
+}
+/* =============== END BUTTON GO TO TOP =============== */
+
 /* ============= START TOP SECTION STYLE =================  */
 .top-head{
     background-color: #f3f3f3;
